@@ -18,6 +18,7 @@ output:
   posterdown::posterdown_html:
     self_contained: false
 bibliography: packages.bib
+knit: pagedown::chrome_print
 ---
 
 ```{r setup, include=FALSE}
